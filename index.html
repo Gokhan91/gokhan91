@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SCRAPBOOK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>I am the biggest heading</h1>
+    <h2>Yeah sure he is and I'm the second</h2>
+    <h3>LOOK! I'm the third and got a bronze medal!!</h3>
+    <h4>Really guys are we going to compare our sizes?</h4>
+    <h5>I'm an h5 and I hate my size -.-</h5>
+    <h6>You guys think size matters? CSS will solve this for us. I'm a h6 bigger than a h1!</h6>
+    <hr>
+
+    <div>
+        <p>I wanted to add a paragraph but couldn't find anything to write about. So you have to read this boring
+            meaningless lorem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic deleniti pariatur quibusdam
+            doloribus
+            dolor minus perspiciatis suscipit incidunt iure, veritatis nisi explicabo impedit, exercitationem
+            consequuntur
+            aut corporis quia et! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique provident dicta
+            alias!
+            Placeat nobis sunt consequatur in sit debitis similique? In reprehenderit cum blanditiis perferendis, at
+            voluptatibus provident dolorum commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum a
+            nostrum
+            asperiores incidunt rem doloremque, alias reprehenderit enim voluptatem iste, ipsam quasi corrupti
+            architecto
+            illum voluptas exercitationem hic ullam officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Temporibus inventore ea libero nostrum quos, magnam aut enim consequatur beatae quasi, obcaecati aliquam
+            odit
+            soluta omnis nobis quidem est exercitationem doloribus?</p>
+    </div>
+    <br>
+    <div>
+        <p>I wanted to add a paragraph but couldn't find anything to <span class="activities">write</span> about. So you
+            have to read this boring
+            meaningless lorem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic deleniti pariatur quibusdam
+            doloribus
+            dolor minus perspiciatis suscipit incidunt iure, veritatis nisi explicabo impedit, exercitationem
+            consequuntur
+            aut corporis quia et! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique provident dicta
+            alias!
+            Placeat nobis sunt consequatur in sit debitis similique? In reprehenderit cum blanditiis perferendis, at
+            voluptatibus provident dolorum commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum a
+            nostrum
+            asperiores incidunt rem doloremque, alias reprehenderit enim voluptatem iste, ipsam quasi corrupti
+            architecto
+            illum voluptas exercitationem hic ullam officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Temporibus inventore ea libero nostrum quos, magnam aut enim consequatur beatae quasi, obcaecati aliquam
+            odit
+            soluta omnis nobis quidem est exercitationem doloribus?</p>
+    </div>
+    <hr>
+    <p style="font-size:20px; font-weight: 900; color: #6E2C00;">According to Barney Stinson <q
+            cite="https://en.wikipedia.org/wiki/Barney_Stinson">this
+            webpage is going to be
+            legen -wait for it- dary! LEGENDARY!</q></p>
+    <table class="fbook">
+        <tr>
+            <th style="padding: 10px;">Favorite Book</th>
+            <th>Author</th>
+        </tr>
+        <tr>
+            <td style="color:#186A3B;">The Bro Code</td>
+            <td style="color:#186A3B;">Barney Stinson</td>
+        </tr>
+        <tr>
+            <td style="color:#186A3B;">The Playbook</td>
+            <td style="color:#186A3B;">Barney Stinson</td>
+        </tr>
+    </table>
+    <h2>Below you may find some catchphrases from Barney Stinson</h2>
+    <ul class="cphrase">
+        <li>Suit up!</li>
+        <li>Wait for it</li>
+        <li>Legendary!</li>
+        <li>Challenge Accepted!</li>
+    </ul>
+    <h2>Below you may find the first three article headings from the Bro Code</h2>
+    <ol>
+        <li>Bros before hoes.</li>
+        <li>A bro is always entitled to do something stupid as long as the rest of his bros are all doing it.</li>
+        <li>Bros do not share dessert.</li>
+    </ol>
+    <div style="text-align: center;">
+        <a href=" https://images-na.ssl-images-amazon.com/images/I/81j3tUFj2jL.jpg" target="_blank"> <img
+                src="https://images-na.ssl-images-amazon.com/images/I/81j3tUFj2jL.jpg" alt="The Bro Code" width=500></a>
+        <br>
+        <br>
+        <a href="https://www.amazon.com/Bro-Code-Barney-Stinson/dp/143911000X" target="_blank">Here is a link
+            for you to
+            purchase the Bro Code</a>
+    </div>
+    <br>
+    <h3 id=message>Got a message?</h3>
+    <div class=form>
+        <form action="_Blank" method="post">
+            <table>
+                <tr>
+                    <th>
+                        <label for="name">Name:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="name" name="user_name">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="mail">E-mail:</label>
+                    </th>
+                    <th>
+                        <input type="email" id="mail" name="user_email">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="msg">Message:</label>
+                    </th>
+                    <th style="margin: 200px;">
+                        <textarea id="msg" name="user_message"></textarea>
+                    </th>
+                </tr>
+                </tr>
+            </table>
+    </div>
+    <div>
+        <label style="display: inline;">
+            <input type="radio" name="sex" value="male" checked>Male</label>
+        <label style="display: inline;">
+            <input type="radio" name="sex" value="female">Female</label>
+        <button id=btn>Send</button>
+        </form>
+    </div>
+    <hr>
+    <h2>Que to get laid with Barney Stinson</h2>
+    <div id="quediv">
+        <ol id="queol">
+            <li>Christine Rowan</li>
+            <li>Vanessa Mc'Ardle</li>
+            <li>Ted Mosby</li>
+        </ol>
+        Name:
+        <input id="bimbo-name-input" type="text">
+        <button id="addnamebtn">Add Your Name</button>
+        <button id="delete-btn">Delete</button>
+    </div>
+
+    <script>
+        let addNameBtn = document.getElementById("addnamebtn")
+        addNameBtn.addEventListener("click", function () {
+            //1 inputa yazılan değeri oku ve bir değişkene ata
+            let bimboNameInput = document.getElementById("bimbo-name-input");
+            let name = bimboNameInput.value;
+            //2 yeni bir li elementi oluştur
+            let newListElement = document.createElement("li");
+            //3 yeni li elementine inputa yazılan değeri ata (testNode) (appendChild)
+            let bimboNameNode = document.createTextNode(name);
+            newListElement.appendChild(bimboNameNode);
+            //4 yeni li elementini ol tagının childi olarak ata
+            let bimboListElement = document.getElementById("queol");
+            bimboListElement.appendChild(newListElement);
+        });
+        let deleteBtn = document.getElementById("delete-btn");
+        deleteBtn.addEventListener("click", function () {
+            let deleteElement = document.getElementById("queol");
+            deleteElement.lastChild.remove();
+
+        })
+    </script>
+
+
+</body>
+
+</html>
